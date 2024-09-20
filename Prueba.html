@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python y Pandas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #72000075;
+        }
+        header {
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        /* Estilo para la imagen en la esquina */
+        .corner-img {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 100px; /* Ajusta el tamaño de la imagen */
+            height: auto;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Python y Pandas</h1>
+</header>
+
+<section>
+    <h2>¿Qué es Python?</h2>
+    <p>Python es una herramienta que sirve para programar código y desarrollar aplicaciones que permitan el análisis de datos. Junto con el conocimiento de los científicos de datos, contribuye a realizar los propósitos deseados por la empresa</p>
+</section>
+
+<section>
+    <h2>¿Qué es Pandas?</h2>
+    <p>En Computación y Ciencia de datos, pandas es una biblioteca de software escrita como extensión de Numpy para manipulación y análisis de datos para el lenguaje de programación Python. En particular, ofrece estructuras de datos y operaciones para manipular tablas numéricas y series temporales.</p>
+</section>
+
+<section>
+    <h2>Características de Pandas</h2>
+    <ul>
+        <li>El tipo de datos son DataFrame para manipulación de datos con indexación integrada. Tiene herramientas para leer y escribir datos entre estructuras de dato en memoria y formatos de archivos variados</li>
+        <li>Permite la alineación de dato y manejo integrado de datos fallantes, la reestructuración y segmentación de conjuntos de datos, la segmentación vertical basada en etiquetas, indexación elegante, y segmentación horizontal de grandes conjuntos de datos, la inserción y eliminación de columnas en estructuras de datos.</li>
+        <li>Ofrece potentes herramientas para el análisis y la visualización de datos.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Ejemplo código Pandas</h2>
+    <p>Este es un ejemplo de cómo leer un archivo CSV utilizando Pandas:</p>
+    <pre>
+# Método para importar las librerías de Pandas a nuestro programa, en este caso llamándose "pd"
+import pandas as pd
+
+# Leer un archivo CSV
+df = pd.read_csv('archivo.csv')
+
+# Mostrar las primeras filas del DataFrame
+print(df.head())
+    </pre>
+</section>
+
+<footer>
+    <p>Pandas: herramienta básica para el Data Science. (2019, April 8). Máster En Data Science. https://www.master-data-scientist.com/pandas-herramienta-data-science/</p>
+</footer>
+
+<!-- Imagen en la esquina -->
+<img src="458385452_122179043942226619_8018016724080023711_n.jpg" alt=":3" class="corner-img">
+
+</body>
+</html>
